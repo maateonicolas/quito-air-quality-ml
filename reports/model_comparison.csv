@@ -1,0 +1,6 @@
+model,accuracy,recall_buena,recall_mala,recall_moderada,macro_f1,comment
+Logistic Regression,0.8833,0.21,0.87,0.94,0.71,"Mejor accuracy, pero bajo recall para clase buena."
+Decision Tree,0.8433,0.14,0.88,0.87,0.65,"Modelo simple, menor desempeño general."
+Random Forest,0.8567,0.57,0.87,0.87,0.77,Mejor balance general entre clases.
+Neural Network,0.86,0.14,0.84,0.92,0.66,"Buen accuracy, pero ignora clase minoritaria."
+Neural Network + Class Weights,0.8367,0.5,0.86,0.85,0.71,Mejora la clase buena sacrificando accuracy.
